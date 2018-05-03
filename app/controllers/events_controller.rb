@@ -31,5 +31,6 @@ class EventsController < ApplicationController
 	def subscribe 
 	@user 
 	@eventsub = EventAttendee
+end 
 
 end
