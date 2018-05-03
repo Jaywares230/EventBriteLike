@@ -1,24 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+THP W5D4 projet: Eventbrite-like
+                     (Surnom du projet: PLS)
 
-Things you may want to cover:
 
-* Ruby version
+Groupe:
+SORIN Miguel    @Jaywares
+LEGOFF Léo     @Lordkayseur
+Deboin Léo     @LeoD
 
-* System dependencies
+lien heroku: 
 
-* Configuration
+Description rapide:
+Vous pourrez creer un compte vous connecter et creer des events.
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Bonne correction ;p
