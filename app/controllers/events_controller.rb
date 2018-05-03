@@ -28,9 +28,5 @@ class EventsController < ApplicationController
 	@event = Event.find(params[:id])
 
 	end 
-	def subscribe 
-	@user 
-	@eventsub = EventAttendee
-end 
-
+	
 end
