@@ -1,0 +1,12 @@
+</br></br> </br><h1> Qui es tu ?</h1>
+
+
+
+<%= form_for @user do|user| %>
+	<label> Ton nom: </label></br>
+	<%= user.text_field :name, class: 'form_control' %></br>
+
+	<div class="form-group">
+	<button type="submit">Créer</button>
+	</div>
+	<%end %>

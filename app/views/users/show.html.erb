@@ -1,0 +1,19 @@
+</br></br> </br><h1>  Salut <%= @user.name %> comment ça va ? </h1> </br>
+<p>
+<h2> Liste des Events que vous avez créé :</h2>
+<% @event.each do |event| %>
+    <p>  Event : " <%= event.description %>  " Cette Event a lieu à: <%= event.place %> <3 </p>
+    	<%end%>
+</p>
+ <h2>Liste des Events auxquels vous participé:</h2>
+
+<% @event_name.each do |event| %>
+    <p>  Event : " <%= event.description %>  " Cette Event a lieu à: <%= event.place %> <3 </p>
+    	<%end%>
+</p>
+
+
+
+
+<a href="<%= users_path %>"> Retour a la liste des utilisateurs</a>
+<a href="<%= events_path %>"> Retour a la liste des Events</a>

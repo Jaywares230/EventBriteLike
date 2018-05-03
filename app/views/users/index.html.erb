@@ -1,0 +1,8 @@
+</br></br> </br><h1> Coucou les petits fous voici tout les utilisateurs inscrits  < 3 </h1>
+
+<% @user.each do |user| %>
+    <p>  <%= user.name %> est inscrit ! < 3 </p>
+  
+<% end %>
+
+<a href="<%= events_path %>"> Retour a la liste des Events</a>

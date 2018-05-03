@@ -1,0 +1,9 @@
+</br></br> </br><h1> Coucou les petits fous voici tout les events  <3 </h1>
+
+<% @event.each do |event| %>
+    <p>  Event : " <%= event.description %>  " Cette Event a lieu à: <%= event.place %> < 3 <form action="/events/subscribe">   <input type="submit" value="S'inscire" />
+		</form> </p>
+  
+<% end %>
+
+<a href="<%= users_path %>"> Retour a la liste des utilisateurs</a>

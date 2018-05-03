@@ -1,0 +1,11 @@
+<h1> creation d'un nouvel event </h1>
+
+<%= form_for @event do|event| %>
+	<label> Lieu de l'Event:</label></br>
+	<%= event.text_field :place, class: 'form_control' %></br>
+	<label> Description de l'Event:</label></br>
+	<%= event.text_area :description, class: 'form_control' %></br>
+	<div class="form-group">
+	<button type="submit">Créer</button>
+	</div>
+	<%end %>
