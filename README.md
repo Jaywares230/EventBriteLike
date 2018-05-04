@@ -9,7 +9,7 @@ SORIN Miguel    @Jaywares
 LEGOFF Léo     @Lordkayseur
 Deboin Léo     @LeoD
 
-lien heroku: 
+lien heroku:  https://git.heroku.com/fast-beach-35682.git
 
 Description rapide:
 Vous pourrez creer un compte vous connecter et creer des events.
